@@ -1,6 +1,5 @@
 let answer=getRandomNumber();
 let history =[];
-console.log(answer);
 window.onload = function() {
     document.getElementById("number-submit").addEventListener("click", playGame);
     document.getElementById("restart-game").addEventListener("click", initGame)
